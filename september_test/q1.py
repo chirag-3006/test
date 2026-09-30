@@ -1,4 +1,4 @@
-units=int(input("Enter units: "))
+units=int(input("enter units: "))
 
 if units<=100:
     bill=units*5
@@ -10,4 +10,4 @@ elif units <= 400:
 else:
     bill=(100*5)+(100*7)+ (200*10) +((units-400) *12)
 
-print("Electricity bill",bill)
+print("electricity bill",bill)

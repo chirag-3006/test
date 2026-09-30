@@ -4,23 +4,23 @@ operator=input("enter operator: ")
 
 match operator:
     case "+":
-        result = a + b
-        print("Result:", result)
+        result=a+b
+        print("reult:", result)
 
     case "-":
-        result = a - b
-        print("Result:", result)
+        result=a-b
+        print("result:", result)
     case "*":
-        result = a * b
-        print("Result:", result)
+        result=a*b
+        print("result:", result)
 
     case "/":
-        result = a / b
-        print("Result:", result)
+        result=a/b
+        print("result:", result)
     case "%":
         
-        result = a % b
-        print("Result:", result)
+        result=a%b
+        print("result:", result)
 
     case _:
-        print("Invalid operator")
+        print("invalid operator")
